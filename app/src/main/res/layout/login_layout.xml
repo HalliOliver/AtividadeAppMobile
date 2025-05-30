@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center|top"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="top|center"
+            android:paddingTop="60dp"
+            android:text="Bem Vindo Querido!"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:textStyle="italic|bold"
+            />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/Icon"
+            />
+        <EditText
+            android:id="@+id/edtLoginEmail"
+            android:paddingRight="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+
+
+            android:hint="Username or Email"
+            android:inputType="textEmailAddress"
+            android:maxLength="50"
+            android:paddingLeft="71sp"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/edtLoginSenha"
+            android:paddingRight="10sp"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+
+            android:hint="Password"
+            android:inputType="textEmailAddress"
+            android:maxLength="50"
+            android:paddingLeft="105sp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esqueceu a senha? Sem problema!"
+            android:layout_gravity="center"
+            android:textColor="#4B000000"
+            android:paddingTop="-10dp"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
