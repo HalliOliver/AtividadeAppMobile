@@ -42,7 +42,7 @@
                     android:textColor="#000"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Janeiro, dia 24"
+                    android:text="Janeiro, dia 24               12:26"
                     />
 
                 <TextView
@@ -61,10 +61,15 @@
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
+
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
         <ImageView
             android:layout_margin="10dp"
@@ -86,22 +91,23 @@
             android:textColor="#000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Janeiro, dia 24"
+            android:text="Fevereiro, dia 28"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Vocés não vão acreditar no que aconteceu... Hal levou um fora! Logo do menino que ele gostava..."
+            android:text="Hoje, trazemos noticias muito inusitadas! Tom entrou em uma briga com seu amigo proximo..."
             />
         <TextView
             android:layout_marginLeft="170dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#A4A4A4"
-            android:text="Saiba mais..."/>
-        </LinearLayout>
+            android:text="Descubra qual..."/>
+            </LinearLayout>
 
+        </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
