@@ -1,78 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login"
     android:background="#FFFFFF"
-    >
+    tools:context=".Login">
 
     <LinearLayout
         android:layout_width="400dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_gravity="center|top"
-        >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="top|center"
-            android:paddingTop="60dp"
-            android:text="Bem Vinde!"
-            android:textColor="#000000"
-            android:textSize="35sp"
-            android:textStyle="italic|bold"
-            />
+        android:orientation="vertical">
+
         <ImageView
+            android:paddingTop="70dp"
+            android:id="@+id/imageIcon2"
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_gravity="center"
-            android:src="@drawable/icon"
-            />
+            android:src="@drawable/icon2" />
+
         <EditText
             android:id="@+id/edtLoginEmail"
-            android:paddingRight="10sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="50dp"
-
-
             android:hint="Username or Email"
+            android:paddingTop="50dp"
             android:inputType="textEmailAddress"
             android:maxLength="50"
             android:paddingLeft="71sp"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
+
         <EditText
             android:id="@+id/edtLoginSenha"
-            android:paddingRight="10sp"
-            android:paddingTop="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_margin="50dp"
-
             android:hint="Password"
-            android:inputType="textEmailAddress"
+            android:inputType="textPassword"
+
             android:maxLength="50"
             android:paddingLeft="105sp"
-            android:textSize="20sp"
-            />
+            android:paddingTop="1dp"
+            android:textSize="20sp" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="400dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_gravity="center"
-        >
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Esqueceu a senha? Sem problema!"
             android:layout_gravity="center"
             android:paddingTop="560dp"
-            android:textColor="#4B000000"
-            />
+            android:text="Esqueceu a senha? Sem problema!"
+            android:textColor="#4B000000" />
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -42,13 +42,13 @@
                     android:textColor="#000"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Gossip Girlsss"
+                    android:text="Janeiro, dia 24"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tom se divertem na aula de mobile, sozinho, pois os amigos dele nao querem fazer lição com ele."
+                    android:text="Vocés não vão acreditar no que aconteceu... Hal levou um fora! Logo do menino que ele gostava..."
                     />
                 <TextView
                     android:layout_marginLeft="170dp"
@@ -66,6 +66,41 @@
         android:layout_height="100dp"
         android:layout_margin="10dp">
 
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_gravity="left"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Janeiro, dia 24"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vocés não vão acreditar no que aconteceu... Hal levou um fora! Logo do menino que ele gostava..."
+            />
+        <TextView
+            android:layout_marginLeft="170dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#A4A4A4"
+            android:text="Saiba mais..."/>
+        </LinearLayout>
 
 
     </com.google.android.material.card.MaterialCardView>
