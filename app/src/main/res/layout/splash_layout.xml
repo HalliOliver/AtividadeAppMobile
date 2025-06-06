@@ -23,6 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:indicatorColor="#FD1CBA"
+            app:trackColor="#FD1CBA"
             android:layout_marginTop="150dp"
             />
 
